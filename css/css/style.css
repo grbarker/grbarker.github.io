@@ -1,0 +1,194 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #444444;
+    font-weight: normal;
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+header {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+section {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article {
+  margin: 8px 0px 8px 0px;
+}
+hr {
+    size: 8px;
+    border-width: 5px;
+}
+
+footer {
+    max-width: 100%;
+}
+
+.highlight {
+  color: #60CAAD;
+}
+
+.project-name {
+  color: #60CAAD;
+  font-weight: bold;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.initially-transparent {
+    background: 0 0;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.list-inline-item {
+    height: 25px;
+    width: auto;
+}
+.dev-icon {
+    height: 55px;
+    font-size: 40px;
+}
+
+#aboutpic {
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#contact {
+    background: 000;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-logo {
+    margin-top: 20px;
+    max-width: 270px;
+}
+
+.progress-bar {
+  background-color: #60CAAD;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h3 {
+  margin: 6px;
+}
+h4 {
+  color: #60CAAD;
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+h6 {
+  font-weight: bold;
+  margin: 8px 0px 2px 0px;
+}
+
+a {
+  color: #444444;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+a:hover {
+  color: #F85F68;
+}
+
+span.link:hover {
+  color: #F85F68;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 1690px) {
+    h1 {
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 1.8em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+    a, p, span  {
+      font-size: 0.9em;
+    }
+  }
+@media all and (max-width: 1280px) {
+    h1 {
+      font-size: 2.8em;
+    }
+    h2 {
+      font-size: 1.6em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }a, p, span  {
+      font-size: 0.9em;
+    }
+  }
+@media all and (max-width: 980px) {
+    h1 {
+      font-size: 2.4em;
+    }
+    h2 {
+      font-size: 1.6em;
+    }
+    h3 {
+      font-size: 1em;
+    }
+    a, p, span  {
+      font-size: 0.8em;
+    }
+  }
+@media all and (max-width: 736px) {
+    h1 {
+      font-size: 2.4em;
+    }
+    h2 {
+      font-size: 1.6em;
+    }
+    h3 {
+      font-size: 1em;
+    }
+    a, p, span  {
+      font-size: 0.8em;
+    }
+  }
+@media all and (max-width: 480px) {
+    h1 {
+      font-size: 1.8em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    h3 {
+      font-size: 0.9em;
+    }
+    a, p, span {
+      font-size: 0.7em;
+    }
+  }
